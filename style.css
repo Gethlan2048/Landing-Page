@@ -4,6 +4,9 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "roboto";
+    background-color: black;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 ul{
     display: flex;
@@ -16,18 +19,26 @@ a{
 }
 button{
     width:max-content;
+    border-radius: 1em;
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 1em;
 }
 img{
-    width: 200px;
+    width: 300px;
     height: auto;
+}
+.header, .titlecontainer{
+    padding-left: 5em;
+    padding-right: 5em;
 }
 .image{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
     border: 1px solid blanchedalmond;
-    padding: 1em
+    justify-content: center;
+    align-items: center;
+    flex:1;
 }
 .header{
     display: flex;
@@ -35,8 +46,6 @@ img{
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding-left: 1em;
-    padding-right: 1em;
 }
 .headerlogotext{
     font-size: 24px;
@@ -46,19 +55,16 @@ img{
     
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
     color: white;
-    padding: 2em;
     border: 1px solid green;
 }
 .maintextcontainer{
-    flex-direction: column;
     color: white;
     display: flex;
-    gap: 1em;
-    flex-basis: 50%;
+    flex-direction: column;
     border: 1px white solid;
-    padding: 1em;
+    flex:1;
+    gap: 1em;
 }
 .maintext{
    font-size: 18px;;
