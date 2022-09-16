@@ -25,6 +25,9 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
+    border: 1px solid blanchedalmond;
+    padding: 1em
 }
 .header{
     display: flex;
@@ -46,6 +49,7 @@ img{
     justify-content: space-between;
     color: white;
     padding: 2em;
+    border: 1px solid green;
 }
 .maintextcontainer{
     flex-direction: column;
@@ -54,6 +58,7 @@ img{
     gap: 1em;
     flex-basis: 50%;
     border: 1px white solid;
+    padding: 1em;
 }
 .maintext{
    font-size: 18px;;
