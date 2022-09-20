@@ -156,7 +156,6 @@ img{
 }
 .actioncontainer1{
     display: flex;
-    border: 1px solid black;
     background-color: #3882f6;
     height: 100px;
     width: 80%;
