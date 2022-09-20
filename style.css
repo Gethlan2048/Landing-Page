@@ -40,8 +40,9 @@ img{
 .image{
     display: flex;
     flex:1;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
+    background-color: grey;
 }
 .header, .footer{
     display: flex;
@@ -67,6 +68,7 @@ img{
     display: flex;
     flex: 1;
     color: white;
+    gap: 1em;
     padding-top: 3em;
     padding-bottom: 3em;
 }
